@@ -1,0 +1,12 @@
+{
+  "name": "interface-distributeur",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter client dev\" \"pnpm --filter server dev\"",
+    "build": "pnpm --filter client build && pnpm --filter server build",
+    "start": "concurrently \"pnpm --filter client start\" \"pnpm --filter server start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
