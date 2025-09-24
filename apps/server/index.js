@@ -14,5 +14,5 @@ app.get("/api/produits", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`✅ API backend dispo sur http://localhost:${port}`);
+  console.log(`API backend dispo sur http://localhost:${port}`);
 });
